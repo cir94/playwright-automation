@@ -1,0 +1,14 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+  "description": "Repo for utilizing Playwright for testing automation",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.1"
+  }
+}
