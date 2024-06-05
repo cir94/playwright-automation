@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "description": "Repo for utilizing Playwright for testing automation",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.44.1",
-    "@types/node": "^20.14.1"
+    "@types/node": "^20.14.1",
+    "eslint": "^9.4.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.5",
+    "prettier": "^3.3.0"
   }
 }
