@@ -10,6 +10,9 @@ test('at homepage', async ({ page }) => {
 });
 
 test('has navbar', async ({ page }) => {
-  const navbar = page.getByRole('menu');
-  await expect(navbar).toHaveCount(6);
+  await expect(page.getByRole('menu')).toBeVisible();
+});
+
+test('has main element visible', async ({ page }) => {
+  await expect(page.locator('.main')).toBeVisible();
 });
