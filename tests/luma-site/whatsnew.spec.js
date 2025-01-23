@@ -21,3 +21,17 @@ test(`what's new promos blocks load`, async ({ page }) => {
 test(`Latest list to load`, async ({ page }) => {
   await expect(page.locator('.widget-product-grid')).toBeVisible();
 });
+
+// Testing for typical things found on page, like navbar and footer
+
+test(`navbar to load`, async ({ page }) => {
+  await expect(page.locator('.navigation')).toBeVisible();
+});
+
+test(`footer to load`, async ({ page }) => {
+  await expect(page.locator('.page-footer')).toBeVisible();
+});
+
+test(`copyright loading properly`, async ({ page }) => {
+  await expect(page.locator('.copyright')).toBeVisible();
+});
